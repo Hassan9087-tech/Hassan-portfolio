@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hassan Shahzada — Software Engineer & Youth Leader</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursor-ring"></div>
+<div class="progress-bar" id="progress"></div>
+
+<!-- Navbar -->
+<nav id="navbar">
+  <div class="nav-logo">HS</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#achievements">Awards</a></li>
+    <li><a href="#contact" class="nav-cta">Contact</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#about" class="close-menu">About</a>
+  <a href="#education" class="close-menu">Education</a>
+  <a href="#experience" class="close-menu">Experience</a>
+  <a href="#skills" class="close-menu">Skills</a>
+  <a href="#achievements" class="close-menu">Achievements</a>
+  <a href="#volunteer" class="close-menu">Volunteer</a>
+  <a href="#contact" class="close-menu">Contact</a>
+</div>
+
+<!-- Hero -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="grid-overlay"></div>
+  <div id="particles"></div>
+  <div class="hero-content container">
+    <div class="hero-eyebrow"><span></span> Based in Mirpur, Pakistan — Open to Global Opportunities</div>
+    <h1 class="hero-name">Hassan<br><span>Shahzada</span></h1>
+    <div class="hero-title">
+      Software Engineering Student &nbsp;·&nbsp; Youth Leader &nbsp;·&nbsp; 
+      <span class="typing-text" id="typing"></span>
+    </div>
+    <p class="hero-desc">
+      Building at the intersection of technology and human empowerment. 
+      A CS student, cloud enthusiast, and international youth delegate passionate about 
+      creating meaningful impact through code and leadership.
+    </p>
+    <div class="hero-buttons">
+      <a href="#achievements" class="btn-primary">View Portfolio</a>
+      <a href="#" class="btn-outline" onclick="alert('CV download coming soon!')">Download CV ↗</a>
+      <a href="#contact" class="btn-outline">Contact Me</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="stat-num">6+</div>
+        <div class="stat-label">International Programs</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">3</div>
+        <div class="stat-label">Leadership Roles</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">84%</div>
+        <div class="stat-label">Intermediate Score</div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll">SCROLL</div>
+</section>
+
+<!-- About -->
+<section id="about">
+  <div class="container">
+    <div class="section-label">Who I Am</div>
+    <h2 class="section-title">Driven by curiosity,<br>shaped by purpose.</h2>
+    <div class="about-grid">
+      <div class="about-avatar-wrap reveal">
+        <div class="about-corner tl"></div>
+        <div class="about-avatar">HS</div>
+        <div class="about-corner br"></div>
+      </div>
+      <div class="about-text reveal">
+        <h3>Software Engineer & Youth Leader from Pakistan</h3>
+        <p>
+          I'm Hassan Shahzada, a first-year Software Engineering student at MUST with an unwavering belief that technology can transform communities. My journey spans from writing content on Fiverr to representing youth at international assemblies.
+        </p>
+        <p>
+          My vision is to harness the power of cloud computing, software development, and digital leadership to solve real-world problems — especially those affecting youth and marginalized communities across Pakistan and beyond.
+        </p>
+        <p>
+          Whether it's volunteering with Alkhidmat Foundation, leading as an AWS Cloud Builder, or participating in global youth diplomacy forums, I'm always seeking to bridge the gap between technology and social impact.
+        </p>
+        <div class="about-chips">
+          <span class="chip">☁️ Cloud Computing</span>
+          <span class="chip">🌍 Youth Diplomacy</span>
+          <span class="chip">✍️ Content Writing</span>
+          <span class="chip">💡 Social Impact</span>
+          <span class="chip">🎤 Public Speaking</span>
+          <span class="chip">🇵🇰 Pakistan</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Education -->
+<section id="education">
+  <div class="container">
+    <div class="section-label">Academic Journey</div>
+    <h2 class="section-title">Education</h2>
+    <p class="section-sub">Building a strong foundation in software engineering and technology to drive meaningful change.</p>
+    <div class="edu-cards">
+      <div class="edu-card reveal">
+        <div class="edu-icon">🎓</div>
+        <div class="edu-degree">Bachelor of Science in Software Engineering</div>
+        <div class="edu-school">Mirpur University of Science and Technology (MUST)</div>
+        <div class="edu-period">October 2024 — October 2028</div>
+        <span class="edu-badge">Currently Enrolled</span>
+      </div>
+      <div class="edu-card reveal">
+        <div class="edu-icon">📚</div>
+        <div class="edu-degree">Intermediate — Pre-Engineering</div>
+        <div class="edu-school">Kashmir Model College, Mirpur</div>
+        <div class="edu-period">Completed</div>
+        <span class="edu-badge">84% — Distinction</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Experience -->
+<section id="experience">
+  <div class="container">
+    <div class="section-label">Work History</div>
+    <h2 class="section-title">Experience</h2>
+    <p class="section-sub">Real-world experience that honed my communication, creativity, and professional skills.</p>
+    <div class="exp-grid">
+      <div class="exp-card reveal">
+        <div class="exp-year">2022 — 2023</div>
+        <div>
+          <div class="exp-title">Freelance Content Writer</div>
+          <div class="exp-org">Fiverr — Remote</div>
+          <p style="color:var(--muted);font-size:0.88rem;line-height:1.7;margin-bottom:0.8rem;">
+            Delivered high-quality blog posts, articles, and SEO-optimized content for international clients. Built a reputation for timely delivery and compelling storytelling across diverse niches.
+          </p>
+          <div class="exp-tags">
+            <span class="tag">SEO Writing</span>
+            <span class="tag">Blogging</span>
+            <span class="tag">Client Communication</span>
+            <span class="tag">Content Strategy</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Leadership -->
+<section id="leadership">
+  <div class="container">
+    <div class="section-label">Leadership</div>
+    <h2 class="section-title">Leadership Roles</h2>
+    <p class="section-sub">Representing Pakistan's youth in global technology and leadership initiatives.</p>
+    <div class="leadership-grid">
+      <div class="leader-card reveal">
+        <div class="leader-role">Associate Microsoft Student Ambassador</div>
+        <div class="leader-org">Microsoft — Student Ambassador Program</div>
+        <div class="leader-desc">
+          Advocating for Microsoft technologies within the university community, organizing tech events, and empowering fellow students with cloud and productivity tools.
+        </div>
+      </div>
+      <div class="leader-card reveal">
+        <div class="leader-role">AWS Cloud Builder</div>
+        <div class="leader-org">AWS Cloud Club</div>
+        <div class="leader-desc">
+          Building cloud-native solutions and promoting AWS cloud adoption among students. Participating in hands-on workshops and cloud architecture challenges.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+  <div class="container">
+    <div class="section-label">Technical & Soft Skills</div>
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card reveal" data-skill="80">
+        <div class="skill-icon">⚙️</div>
+        <div class="skill-name">C#</div>
+        <div class="skill-bar-wrap"><div class="skill-bar"></div></div>
+        <div class="skill-pct">80%</div>
+      </div>
+      <div class="skill-card reveal" data-skill="85">
+        <div class="skill-icon">🌐</div>
+        <div class="skill-name">HTML / CSS</div>
+        <div class="skill-bar-wrap"><div class="skill-bar"></div></div>
+        <div class="skill-pct">85%</div>
+      </div>
+      <div class="skill-card reveal" data-skill="75">
+        <div class="skill-icon">🖋️</div>
+        <div class="skill-name">WordPress</div>
+        <div class="skill-bar-wrap"><div class="skill-bar"></div></div>
+        <div class="skill-pct">75%</div>
+      </div>
+      <div class="skill-card reveal" data-skill="90">
+        <div class="skill-icon">✍️</div>
+        <div class="skill-name">Blogging & Writing</div>
+        <div class="skill-bar-wrap"><div class="skill-bar"></div></div>
+        <div class="skill-pct">90%</div>
+      </div>
+      <div class="skill-card reveal" data-skill="88">
+        <div class="skill-icon">🎤</div>
+        <div class="skill-name">Leadership</div>
+        <div class="skill-bar-wrap"><div class="skill-bar"></div></div>
+        <div class="skill-pct">88%</div>
+      </div>
+      <div class="skill-card reveal" data-skill="92">
+        <div class="skill-icon">💬</div>
+        <div class="skill-name">Communication</div>
+        <div class="skill-bar-wrap"><div class="skill-bar"></div></div>
+        <div class="skill-pct">92%</div>
+      </div>
+      <div class="skill-card reveal" data-skill="85">
+        <div class="skill-icon">🤝</div>
+        <div class="skill-name">Teamwork</div>
+        <div class="skill-bar-wrap"><div class="skill-bar"></div></div>
+        <div class="skill-pct">85%</div>
+      </div>
+      <div class="skill-card reveal" data-skill="87">
+        <div class="skill-icon">🔄</div>
+        <div class="skill-name">Adaptability</div>
+        <div class="skill-bar-wrap"><div class="skill-bar"></div></div>
+        <div class="skill-pct">87%</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Achievements -->
+<section id="achievements">
+  <div class="container">
+    <div class="section-label">Recognition</div>
+    <h2 class="section-title">Achievements &<br>International Recognition</h2>
+    <div class="ach-grid">
+      <div class="ach-card reveal">
+        <div class="ach-year">2024</div>
+        <div class="ach-emoji">🇺🇳</div>
+        <div class="ach-title">Youth General Assembly Pakistan</div>
+        <div class="ach-desc">Selected to represent Pakistani youth in national-level assembly sessions, engaging in policy discussions and diplomatic simulations.</div>
+      </div>
+      <div class="ach-card reveal">
+        <div class="ach-year">2024</div>
+        <div class="ach-emoji">🎤</div>
+        <div class="ach-title">DPMUN — Delegate</div>
+        <div class="ach-desc">Participated in Model United Nations, representing national interests and honing skills in international diplomacy and debate.</div>
+      </div>
+      <div class="ach-card reveal">
+        <div class="ach-year">2023</div>
+        <div class="ach-emoji">📰</div>
+        <div class="ach-title">CNN Academy Fellow</div>
+        <div class="ach-desc">Awarded a CNN Academy fellowship, gaining advanced training in digital journalism, storytelling, and multimedia content creation.</div>
+      </div>
+      <div class="ach-card reveal">
+        <div class="ach-year">2024</div>
+        <div class="ach-emoji">🚀</div>
+        <div class="ach-title">Aspire Leaders Program</div>
+        <div class="ach-desc">Selected for Harvard-affiliated Aspire Leaders Program, developing executive leadership skills and global network of emerging leaders.</div>
+      </div>
+      <div class="ach-card reveal">
+        <div class="ach-year">2023</div>
+        <div class="ach-emoji">⚖️</div>
+        <div class="ach-title">Youth for Human Rights International</div>
+        <div class="ach-desc">Active youth ambassador promoting human rights awareness through education campaigns and community outreach programs.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Volunteer -->
+<section id="volunteer">
+  <div class="container">
+    <div class="section-label">Social Impact</div>
+    <h2 class="section-title">Volunteer Experience</h2>
+    <div class="vol-grid">
+      <div class="vol-card reveal">
+        <div class="vol-logo">🤲</div>
+        <div class="vol-org">Muslim Hands</div>
+        <div class="vol-desc">Contributed to humanitarian aid initiatives, community outreach, and education programs serving underprivileged communities across Pakistan.</div>
+      </div>
+      <div class="vol-card reveal">
+        <div class="vol-logo">💚</div>
+        <div class="vol-org">Alkhidmat Foundation</div>
+        <div class="vol-desc">Participated in food distribution, disaster relief, and youth empowerment campaigns, serving thousands of families in need.</div>
+      </div>
+      <div class="vol-card reveal">
+        <div class="vol-logo">🎓</div>
+        <div class="vol-org">The Paradigm Association — MUST</div>
+        <div class="vol-desc">Active member promoting academic excellence, leadership development, and social awareness among university students at MUST.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Publications -->
+<section id="publications">
+  <div class="container">
+    <div class="section-label">Online Presence</div>
+    <h2 class="section-title">Publications &<br>Online Profiles</h2>
+    <div class="pub-grid">
+      <a href="https://www.fiverr.com" target="_blank" class="pub-card reveal">
+        <div class="pub-icon">💼</div>
+        <div class="pub-title">Fiverr Profile</div>
+        <div class="pub-url">fiverr.com/hassanshahzada</div>
+      </a>
+      <a href="https://www.linkedin.com" target="_blank" class="pub-card reveal">
+        <div class="pub-icon">🔗</div>
+        <div class="pub-title">LinkedIn Profile</div>
+        <div class="pub-url">linkedin.com/in/hassan-shahzada</div>
+      </a>
+      <a href="https://medium.com" target="_blank" class="pub-card reveal">
+        <div class="pub-icon">✍️</div>
+        <div class="pub-title">Medium Articles</div>
+        <div class="pub-url">medium.com/@hassanshahzada</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <div class="container">
+    <div class="section-label">Get In Touch</div>
+    <h2 class="section-title">Let's Connect</h2>
+    <div class="contact-wrap">
+      <div class="contact-info reveal">
+        <h3>Ready to build something meaningful together?</h3>
+        <p>Whether you're looking for a collaborator, a content writer, or a passionate youth leader for your next initiative — I'd love to hear from you.</p>
+        <div class="social-links">
+          <a href="mailto:Hassan.Shahzada@studentambassadors.com" class="social-link">
+            <div class="social-icon">📧</div>
+            Hassan.Shahzada@studentambassadors.com
+          </a>
+          <a href="https://linkedin.com" target="_blank" class="social-link">
+            <div class="social-icon">🔗</div>
+            LinkedIn — Hassan Shahzada
+          </a>
+          <a href="https://github.com" target="_blank" class="social-link">
+            <div class="social-icon">🐙</div>
+            GitHub — @hassanshahzada
+          </a>
+          <a href="https://medium.com" target="_blank" class="social-link">
+            <div class="social-icon">✍️</div>
+            Medium — Blog & Articles
+          </a>
+        </div>
+      </div>
+      <div class="contact-form reveal">
+        <div class="form-group">
+          <label class="form-label">Your Name</label>
+          <input type="text" class="form-input" placeholder="John Doe">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Email Address</label>
+          <input type="email" class="form-input" placeholder="john@example.com">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Message</label>
+          <textarea class="form-textarea" placeholder="Tell me about your project or idea..."></textarea>
+        </div>
+        <button class="btn-primary" style="align-self:flex-start" onclick="alert('Message sent! Hassan will get back to you soon.')">Send Message →</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>Designed & built with ❤️ by <a href="#">Hassan Shahzada</a> — Mirpur, Pakistan &copy; 2025</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
